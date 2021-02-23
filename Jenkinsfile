@@ -12,9 +12,9 @@ pipeline {
                 echo 'Testing..'
             }
         }
-        stage('Deploy') {
+        stage('Upload to Artifactory') {
             steps {
-                echo 'Deploying....'
+                echo 'Uploading image....'
             }
         }
     }
